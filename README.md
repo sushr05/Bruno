@@ -38,13 +38,13 @@ Uses the new prompt to perform similarity search on vector database and retrieve
 -The resulting answer is streamed and the original prompt and the answer are appended to temporary chat history
 
 # Specifications
-1.LLM: Llama3-8b
-2.LLM Hosting: Groq
-3.Parser: PyPDFLoader from LangChain
-4.Chunking: Contextual chunking
-5.Embedding model: sentence-transformers/all-mpnet-base-v2 from HuggingFace
-6.Retriever: Ensemble retriever (BM25 Retriever, vectordb retriever), implicit reranking
-7.Vector database: Pinecone
+-1.LLM: Llama3-8b
+-2.LLM Hosting: Groq
+-3.Parser: PyPDFLoader from LangChain
+-4.Chunking: Contextual chunking
+-5.Embedding model: sentence-transformers/all-mpnet-base-v2 from HuggingFace
+-6.Retriever: Ensemble retriever (BM25 Retriever, vectordb retriever), implicit reranking
+-7.Vector database: Pinecone
 
 
 
