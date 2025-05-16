@@ -1,5 +1,5 @@
 # Bruno
-Bruno is a powerful Retrieval-Augmented Generation (RAG) chatbot inspired by Anthropic’s Contextual Retrieval architecture. It combines semantic search with BM25 sparse retrieval and contextual chunking to deliver accurate and relevant answers over unstructured documents such as PDFs, DOCX, and TXT files.
+Bruno is a powerful Retrieval-Augmented Generation (RAG) chatbot inspired by Anthropic’s Contextual Retrieval architecture. It combines semantic search with BM25 sparse retrieval and contextual chunking to deliver accurate and relevant answers over unstructured documents such as PDFs, DOCX, and TXT files. [Anthropic's Contextual Retrieval](https://www.anthropic.com/news/contextual-retrieval).
 
 ![image](https://github.com/user-attachments/assets/c3b82322-3725-4136-a554-bbde08ac02d5)
 
