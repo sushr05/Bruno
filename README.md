@@ -48,3 +48,12 @@ Bruno is a powerful Retrieval-Augmented Generation (RAG) chatbot inspired by Ant
 - **Embedding model:** `sentence-transformers/all-mpnet-base-v2` from HuggingFace  
 - **Retriever:** Ensemble retriever (BM25 Retriever, vector DB retriever), implicit reranking  
 - **Vector database:** Pinecone
+
+
+![image](https://github.com/user-attachments/assets/c3b82322-3725-4136-a554-bbde08ac02d5)
+![image](https://github.com/user-attachments/assets/7ba54316-cd51-4abf-b27c-3d2ceeb5385c)
+![image](https://github.com/user-attachments/assets/6d3be904-01d8-4ec8-807d-f34f3d25967b)
+![image](https://github.com/user-attachments/assets/8983c29b-be2c-49a6-a35b-2fc6bd5a9412)
+
+
+
