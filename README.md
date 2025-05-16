@@ -14,7 +14,7 @@ Bruno is a powerful Retrieval-Augmented Generation (RAG) chatbot inspired by Ant
 **Parsing text from PDF**
 -  Uses PyPDFLoader from langchain to extract text from each page of a provided PDF file, combining it into a single string.
 **Splitting the text into chunks**
--  Uses RecursiveCharacterTextSplitter to split into chunks
+-  Uses RecursiveCharacterTextSplitter to split into chunks.
 **Adding context to chunks**
 -  Run inference on llm for each chunk, by asking it to modify the chunk to contain context with respect to entire document. This step is skipped if document is too big.
 **Creating TF-IDF encodings**
