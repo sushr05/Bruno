@@ -11,19 +11,19 @@ Bruno is a powerful Retrieval-Augmented Generation (RAG) chatbot inspired by Ant
 
 # Working of Contextual Retrieval RAG in Bruno
 # Upon file upload
-- Parsing text from PDF
+**Parsing text from PDF**
 -  Uses PyPDFLoader from langchain to extract text from each page of a provided PDF file, combining it into a single string.
-- Splitting the text into chunks
+**Splitting the text into chunks**
 -  Uses RecursiveCharacterTextSplitter to split into chunks
-- Adding context to chunks
+**Adding context to chunks**
 -  Run inference on llm for each chunk, by asking it to modify the chunk to contain context with respect to entire document. This step is skipped if document is too big.
-- Creating TF-IDF encodings
+**Creating TF-IDF encodings**
 -  Created TF-IDF encodings implicitly while initialising BM25 retriever with new chunks.
-- Creating vector embeddings
+**creating vector embeddings**
 -  Created vector embedding for the new chunks using embeddings model from sentence-transformer in HuggingFace.
-- Store vector embeddings in Pinecone
+**Store vector embeddings in Pinecone**
 -  Stores vector embeddings in Pinecone vector database and intialises vector retriever for it.
-- Define ensemble retriever
+**Define ensemble retriever**
 -  Creates and ensemble retriever with BM25 retriever and Pinecone vector retriever, implicity perform Rerank and deduplication.
 # Inference from RAG pipeline
 - History based prompt modification
