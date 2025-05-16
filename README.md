@@ -1,6 +1,8 @@
 # Bruno
 Bruno is a powerful Retrieval-Augmented Generation (RAG) chatbot inspired by Anthropic’s Contextual Retrieval architecture. It combines semantic search with BM25 sparse retrieval and contextual chunking to deliver accurate and relevant answers over unstructured documents such as PDFs, DOCX, and TXT files.
 
+![image](https://github.com/user-attachments/assets/c3b82322-3725-4136-a554-bbde08ac02d5)
+
 # Key Features
 - Ensemble retrieval combining semantic search and BM25 for better recall
 - Contextual chunking of documents using LLMs for meaningful splits
@@ -40,6 +42,8 @@ Bruno is a powerful Retrieval-Augmented Generation (RAG) chatbot inspired by Ant
 - **Streaming result and storing to chat history**
   - The resulting answer is streamed, and the original prompt and the answer are appended to the temporary chat history.
 
+  ![image](https://github.com/user-attachments/assets/7ba54316-cd51-4abf-b27c-3d2ceeb5385c)
+
 # Specifications
 - **LLM:** LLaMA 3-8B  
 - **LLM Hosting:** Groq  
@@ -50,10 +54,10 @@ Bruno is a powerful Retrieval-Augmented Generation (RAG) chatbot inspired by Ant
 - **Vector database:** Pinecone
 
 
-![image](https://github.com/user-attachments/assets/c3b82322-3725-4136-a554-bbde08ac02d5)
-![image](https://github.com/user-attachments/assets/7ba54316-cd51-4abf-b27c-3d2ceeb5385c)
+
+
 ![image](https://github.com/user-attachments/assets/6d3be904-01d8-4ec8-807d-f34f3d25967b)
-![image](https://github.com/user-attachments/assets/8983c29b-be2c-49a6-a35b-2fc6bd5a9412)
+
 
 
 
